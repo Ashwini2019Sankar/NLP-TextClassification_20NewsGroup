@@ -5,12 +5,19 @@ The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup doc
 GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
 
 Model summary : I have used the following layers :
+
 Conv1D
+
 MaxPooling1D
+
 Conv1D
+
 MaxPooling1D
+
 Conv1D
+
 GlobalMaxPooling1D
+
 Full Connection
 
 Loss function used is : ‘categorical_crossentropy’ & optimizer used is : ‘rmsprop’ & metrics used
