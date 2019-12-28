@@ -21,8 +21,11 @@ GlobalMaxPooling1D
 Full Connection
 
 Loss function used is : ‘categorical_crossentropy’
+
 Optimizer used is : ‘rmsprop’
+
 Metrics used to measure is : ‘Accuracy’.
+
 
 Rmsprop : is a very clever way to deal with the problem of vanishing & exploding gradients. It
 uses a moving average of squared gradients to normalize the gradient itself. That has an effect
