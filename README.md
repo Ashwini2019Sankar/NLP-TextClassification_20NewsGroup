@@ -20,8 +20,9 @@ GlobalMaxPooling1D
 
 Full Connection
 
-Loss function used is : ‘categorical_crossentropy’ & optimizer used is : ‘rmsprop’ & metrics used
-to measure is ‘accuracy’.
+Loss function used is : ‘categorical_crossentropy’
+Optimizer used is : ‘rmsprop’
+Metrics used to measure is : ‘Accuracy’.
 
 Rmsprop : is a very clever way to deal with the problem of vanishing & exploding gradients. It
 uses a moving average of squared gradients to normalize the gradient itself. That has an effect
@@ -37,4 +38,5 @@ test loss is less compared to train loss. After epoch 3, the train loss is less 
 loss.
 
 The best accuracy achieved for training dataset is : 87.67%
+
 Test dataset accuracy is : 70.87%
