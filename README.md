@@ -20,6 +20,7 @@ GlobalMaxPooling1D
 
 Full Connection
 
+
 Loss function used is : ‘categorical_crossentropy’
 
 Optimizer used is : ‘rmsprop’
